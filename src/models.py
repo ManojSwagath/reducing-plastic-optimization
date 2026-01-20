@@ -84,7 +84,9 @@ def profile_radius_function(shape: ShapeType, params: ProfileParams) -> Callable
         # Waist: min radius at middle.
         return lambda z: R * (1.0 - a * np.sin(np.pi * (np.asarray(z, dtype=float) / H)))
 
-    if shape == "knots":
+    # Knot-based profiles: used directly ("knots") and also as backing for
+    # higher-level presets like "bottle" and "image".
+    if shape in ("knots", "bottle", "image"):
         p = params  # type: ignore[assignment]
         assert isinstance(p, KnotsParams)
         z_knots = np.asarray(p.knots_z, dtype=float)
