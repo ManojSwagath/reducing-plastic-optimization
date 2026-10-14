@@ -1,0 +1,62 @@
+{
+  "bottle_01_standard.csv": {
+    "description": "Standard water bottle with tapered neck",
+    "type": "standard",
+    "nominal_volume_ml": 500,
+    "filename": "bottle_01_standard.csv"
+  },
+  "bottle_02_cylindrical.csv": {
+    "description": "Simple cylindrical bottle",
+    "type": "cylindrical",
+    "nominal_volume_ml": 350,
+    "filename": "bottle_02_cylindrical.csv"
+  },
+  "bottle_03_tapered.csv": {
+    "description": "Linearly tapered from base to top",
+    "type": "tapered",
+    "nominal_volume_ml": 550,
+    "filename": "bottle_03_tapered.csv"
+  },
+  "bottle_04_ergonomic.csv": {
+    "description": "Ergonomic bottle with grip indentation",
+    "type": "ergonomic",
+    "nominal_volume_ml": 650,
+    "filename": "bottle_04_ergonomic.csv"
+  },
+  "bottle_05_sports.csv": {
+    "description": "Sports bottle with wide body and narrow neck",
+    "type": "sports",
+    "nominal_volume_ml": 750,
+    "filename": "bottle_05_sports.csv"
+  },
+  "bottle_06_wide_mouth.csv": {
+    "description": "Wide-mouth bottle/jar",
+    "type": "wide_mouth",
+    "nominal_volume_ml": 700,
+    "filename": "bottle_06_wide_mouth.csv"
+  },
+  "bottle_07_small.csv": {
+    "description": "Small bottle for single serving",
+    "type": "small",
+    "nominal_volume_ml": 250,
+    "filename": "bottle_07_small.csv"
+  },
+  "bottle_08_large.csv": {
+    "description": "Large 1-liter bottle",
+    "type": "large",
+    "nominal_volume_ml": 1000,
+    "filename": "bottle_08_large.csv"
+  },
+  "bottle_09_contoured.csv": {
+    "description": "Bottle with multiple body contours",
+    "type": "contoured",
+    "nominal_volume_ml": 600,
+    "filename": "bottle_09_contoured.csv"
+  },
+  "bottle_10_soda.csv": {
+    "description": "Classic soda bottle shape",
+    "type": "soda",
+    "nominal_volume_ml": 600,
+    "filename": "bottle_10_soda.csv"
+  }
+}
