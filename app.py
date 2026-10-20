@@ -28,8 +28,8 @@ from optimization import optimize_bottle
 # Page config
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Plastic Bottle Optimizer",
-    page_icon="🍶",
+    page_title="AI-Driven Sustainable Bottle Design System",
+    page_icon="🌿",
     layout="wide",
 )
 
@@ -205,7 +205,7 @@ def predict_mass(
 # ---------------------------------------------------------------------------
 
 def main():
-    st.title("🍶 Plastic Bottle Shape Optimizer")
+    st.title("🌿 AI-Driven Sustainable Bottle Design System")
     st.markdown(
         "Minimise plastic use with **mathematical optimisation** (SLSQP) "
         "and a **Random Forest** mass predictor."
